@@ -19,7 +19,7 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #8b3c8d; /* Background color for the entire website, including individual sections */
+  --background-color:  #821f7b; /* Background color for the entire website, including individual sections */
   --default-color: rgba(255, 255, 255, 0.7); /* Default color used for the majority of the text content across the entire website */
   --heading-color: #e1d2dc; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #c1700d; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
@@ -1098,7 +1098,7 @@ section,
 /*ben ekledim*/
 .why-us::before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 12%);
+  background: color-mix(in srgb, var(--background-color), transparent 25%);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1156,7 +1156,7 @@ section,
 --------------------------------------------------------------*/
 .menu {
   /*background-color: color-mix(in srgb, var(--background-color) 90%, white 5%);*/
-  background-color: #792e42;
+  background-color: #7f364bde;
 }
 
 .menu .menu-filters {
@@ -1222,7 +1222,7 @@ section,
 
 .menu .menu-content a {
   color: var(--heading-color);
-  background:#792e42;
+  background:#7f364bde;
   padding-right: 10px;
   position: relative;
   z-index: 3;
@@ -1235,7 +1235,7 @@ section,
 }
 
 .menu .menu-content span {
-  background: #792e42;
+  background: #7f364bde;
   color: #f3eef0;
   position: relative;
   z-index: 3;
@@ -1266,7 +1266,7 @@ section,
   border: 0;
   padding: 12px 15px;
   transition: 0.3s;
-  color: var(--heading-color);
+  color: lightpink;
   border-radius: 0;
   border-right: 2px solid var(--accent-color);
   font-weight: 600;
@@ -1278,7 +1278,7 @@ section,
 }
 
 .specials .nav-link.active {
-  color: var(--contrast-color);
+  color: black;
   background-color: var(--accent-color);
 }
 
@@ -1307,109 +1307,17 @@ section,
   }
 
   .specials .nav-link.active {
-    color: var(--accent-color);
+    color: white;
     background: var(--accent-color);
   }
 }
 
-/*--------------------------------------------------------------
-# Events Section
---------------------------------------------------------------*/
-.events {
-  --default-color: #ffffff;
-  --background-color: #000000;
-  --heading-color: #ffffff;
-  padding: 80px 0;
-  position: relative;
-}
-
-.events .slider-bg {
-  position: absolute;
-  inset: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 1;
-}
-
-.events:before {
-  content: "";
-  background-color: color-mix(in srgb, var(--background-color), transparent 30%);
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-}
-
-.events .section-title h2 {
-  color: #ffffff;
-}
-
-.events .container {
-  position: relative;
-  z-index: 3;
-}
-
-.events .event-item h3 {
-  font-weight: 700;
-  font-size: 30px;
-}
-
-.events .event-item .price {
-  font-size: 26px;
-  font-family: var(--default-font);
-  font-weight: 700;
-  margin-bottom: 15px;
-}
-
-.events .event-item .price span {
-  border-bottom: 2px solid var(--accent-color);
-}
-
-.events .event-item ul {
-  list-style: none;
-  padding: 0;
-}
-
-.events .event-item ul li {
-  padding-bottom: 10px;
-}
-
-.events .event-item ul i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: var(--accent-color);
-}
-
-.events .event-item p:last-child {
-  margin-bottom: 0;
-}
-
-.events .swiper-wrapper {
-  height: auto;
-}
-
-.events .swiper-pagination {
-  margin-top: 30px;
-  position: relative;
-}
-
-.events .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: color-mix(in srgb, var(--default-color), transparent 70%);
-  opacity: 1;
-}
-
-.events .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--accent-color);
-}
 
 /*--------------------------------------------------------------
 # Book A Table Section
 --------------------------------------------------------------*/
 .book-a-table {
-  background-color: #3c173a; /* Örneğin, bej rengi */
+  background-color: #63205f; /* Örneğin, bej rengi */
 }
 
 .book-a-table .reservation-img {
@@ -1570,7 +1478,7 @@ section,
 --------------------------------------------------------------*/
 
 .gallery {
-  background-color: #a59b9b; /* İstediğiniz arka plan rengi */
+  background-color:  #63205f; /* İstediğiniz arka plan rengi */
 }
 
 .gallery .gallery-item {
