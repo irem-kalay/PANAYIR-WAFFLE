@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://irem-kalay.github.io/sitemap.xml
+Sitemap: https://irem-kalay.github.io/PANAYIR-WAFFLE/sitemap.xml
