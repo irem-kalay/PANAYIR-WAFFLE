@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://irem-kalay.github.io/sitemap.xml
