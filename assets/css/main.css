@@ -1098,7 +1098,7 @@ section,
 /*ben ekledim*/
 .why-us::before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 60%);
+  background: color-mix(in srgb, var(--background-color), transparent 70%);
   position: absolute;
   bottom: 0;
   top: 0;
