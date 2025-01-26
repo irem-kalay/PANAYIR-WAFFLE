@@ -1092,7 +1092,7 @@ section,
 
 .why-us {
   position: relative; /* İçerikleri etkilenmeden yerleştirmek için */
-  background: url('../img/arka-plan.jpg') no-repeat center center; /* Resmi ekler ve ortalar */
+  background: url('../img/arka-plan2.jpg') no-repeat center center; /* Resmi ekler ve ortalar */
   background-size: cover; /* Resmi kapsayıcıya sığdırır */
 }
 /*ben ekledim*/
@@ -1135,7 +1135,7 @@ section,
 
 .why-us .card-item p {
   font-size: 15px;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  color: color-mix(in srgb, var(--default-color), transparent 0%);
   margin: 0;
   padding: 0;
 }
