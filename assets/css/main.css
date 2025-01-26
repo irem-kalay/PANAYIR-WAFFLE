@@ -1108,9 +1108,9 @@ section,
 
 
 .why-us .card-item {
-  background: color-mix(in srgb, var(--default-color), transparent 50%);
+  background: rgba(180, 50, 150, 0.75); /* Pink with 60% transparency */
   padding: 50px 30px;
-  transition: all ease-in-out 0.3s;
+  transition: background-color 0.3s ease, padding 0.3s ease; /* Smooth transition for both color and padding */
   height: 100%;
   position: relative;
 }
