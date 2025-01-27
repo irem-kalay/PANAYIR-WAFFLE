@@ -10,6 +10,46 @@
 # Font & Color Variables
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
+.scrollable-nav {
+  max-height: 300px; /* Adjust the height as needed */
+  overflow-y: auto; /* Enable vertical scrolling */
+  border: 1px solid #ddd; /* Optional: Add a border for better appearance */
+  padding-right: 5px; /* Avoid scrollbar overlapping with text */
+  border-radius: 15px; /* Rounded corners for the table container */
+}
+
+/* Custom scrollbar for Webkit browsers (Chrome, Edge, Safari) */
+.scrollable-nav::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.scrollable-nav::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Light gray background for the track */
+  border-radius: 10px; /* Rounded corners for the track */
+}
+
+.scrollable-nav::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #ff7eb3, #ff758c); /* Gradient for the thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+  border: 2px solid #f1f1f1; /* Adds space around the thumb for a "floating" effect */
+}
+
+.scrollable-nav::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #ff758c, #ff5674); /* Darker gradient on hover */
+}
+
+/* For Firefox */
+.scrollable-nav {
+  scrollbar-width: thin; /* Makes the scrollbar thinner */
+  scrollbar-color: #ff7eb3 #f1f1f1; /* Thumb color and track color */
+}
+
+/* Optional: Add hover effect for better user interaction */
+.scrollable-nav:hover::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #ff5674, #ff758c); /* Change color on hover */
+}
+
+
 /* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
