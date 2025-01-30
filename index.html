@@ -1040,42 +1040,38 @@ eşliğinde antep fıstığı parçalarının lezzet şöleni
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form">
-          <div class="row gy-4">
-            <div class="col-lg-4 col-md-6">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Ad Soyad" required="">
+        <div class="container">
+          
+          <form target="_blank" action="https://formsubmit.co/panayirwaffle@hotmail.com" method="POST">
+            <div class="form-group">
+              <div class="form-row">
+                <div class="col">
+                  <input type="text" name="ad-soyad" class="form-control" placeholder="Ad Soyad" required>
+                </div>
+                <div class="col">
+                  <input type="email" name="email" class="form-control" placeholder="E-posta Adresi" required>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-4 col-md-6">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Mail" required="">
+            <div class="form-group">
+              <input type="tel" name="telefon" class="form-control" placeholder="Telefon Numarası" required>
             </div>
-            <div class="col-lg-4 col-md-6">
-              <input type="text" class="form-control" name="phone" id="phone" placeholder="Telefon Numarası" required="">
+            <div class="form-group">
+              <input type="date" name="tarih" class="form-control" placeholder="Tarih (Gün, Ay, Yıl)" required>
             </div>
-            <div class="col-lg-4 col-md-6">
-              <input type="date" name="date" class="form-control" id="date" placeholder="Tarih" required="">
+            <div class="form-group">
+              <input type="number" name="kaç-kişi" class="form-control" placeholder="Kaç Kişi" required>
             </div>
-            <div class="col-lg-4 col-md-6">
-              <input type="time" class="form-control" name="time" id="time" placeholder="Saat" required="">
+            <div class="form-group">
+              <input type="time" name="saat" class="form-control" placeholder="Saat" required>
             </div>
-            <div class="col-lg-4 col-md-6">
-              <input type="number" class="form-control" name="people" id="people" placeholder="kaç kişi" required="">
+            <div class="form-group">
+              <textarea name="detaylar" class="form-control" placeholder="Detaylar" rows="10" required></textarea>
             </div>
-          </div>
-
-          <div class="form-group mt-3">
-            <textarea class="form-control" name="message" rows="5" placeholder="Mesaj"></textarea>
-          </div>
-
-          <div class="text-center mt-3">
-            <div class="loading">Yükleniyor</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Yer ayrıma isteğiniz gönderildi. Rezervasyonunuzu onaylamak için sizi sonra arayacağız veya mail ile dönüş sağlayacağız. Teşekkürler!</div>
-            <button type="submit">Yer Ayırma</button>
-          </div>
-        </form><!-- End Reservation Form -->
-
-      </div>
+            <button type="submit" class="btn btn-lg btn-dark btn-block">Gönder</button>
+          </form>
+        </div>
+        
 
     </section><!-- /Book A Table Section -->
 <!--testimonials ı sildim-->
