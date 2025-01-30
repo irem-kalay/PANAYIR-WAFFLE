@@ -1288,7 +1288,7 @@ section,
   font-style: italic;
   font-size: 14px;
   font-family: var(--nav-font);
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  /*color: dark-white;*/
 }
 
 /*--------------------------------------------------------------
