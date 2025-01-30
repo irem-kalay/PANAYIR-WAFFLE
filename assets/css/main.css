@@ -12,6 +12,9 @@
 --------------------------------------------------------------*/
 
 
+
+
+
 .form-group {
   margin-bottom: 15px; /* Kutucuklar arasında boşluk */
   width: 350px;
@@ -1269,7 +1272,7 @@ section,
 }
 
 .menu .menu-content::after {
-  content: "......................................................................" "...................................................................." "....................................................................";
+  content: " .............................................................";
   position: absolute;
   left: 20px;
   right: 0;
@@ -1281,7 +1284,7 @@ section,
 
 .menu .menu-content a {
   color: var(--heading-color);
-  background:#7f364bde;
+ 
   padding-right: 10px;
   position: relative;
   z-index: 3;
@@ -1294,7 +1297,7 @@ section,
 }
 
 .menu .menu-content span {
-  background: #7f364bde;
+  
   color: #f3eef0;
   position: relative;
   z-index: 3;
@@ -1310,11 +1313,22 @@ section,
   /*color: dark-white;*/
 }
 
+.menu .tab-pane .text-center img {
+  max-width: 50%; /* Resmi, bulunduğu kapsayıcıya uyacak şekilde küçültür */
+  height: auto; /* Orantıyı korur */
+  border: 4px solid #ddd; /* Çerçeve rengi ve kalınlığı */
+  border-radius: 8px; /* Çerçeve kenarlarını yuvarlatmak */
+  padding: 5px; /* Çerçeve ile resim arasına boşluk ekler */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+}
+
+
 /*--------------------------------------------------------------
 # Specials Section
 --------------------------------------------------------------*/
 .specials {
   overflow: hidden;
+  background-color: #6f0868c6;
 }
 
 .specials .nav-tabs {
@@ -1349,10 +1363,11 @@ section,
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 20px;
+  color:#be7010;
 }
 
 .specials .details p {
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  color: whitesmoke;
 }
 
 .specials .details p:last-child {
@@ -1370,6 +1385,29 @@ section,
     background: var(--accent-color);
   }
 }
+
+.specials {
+  position: relative;
+  background: url('assets/img/menu/karamellim.jpg') no-repeat center center/cover;
+  background-size: cover;
+}
+
+.specials::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(8, 28, 72, 0.718); /* Siyah karartma */
+  z-index: 1;
+}
+
+.specials .container {
+  position: relative;
+  z-index: 2; /* İçeriğin üstte olmasını sağlamak için */
+}
+
 
 
 /*--------------------------------------------------------------
@@ -1720,6 +1758,41 @@ section,
 .contact .php-email-form button[type=submit]:hover {
   background: var(--accent-color);
 }
+
+
+
+/*MENU ARKA PLANI*/
+#menu {
+  position: relative;
+  background: url('\assets\img\menu\menuArkaPlan.png') no-repeat center center/cover;
+  color: rgb(245, 236, 236); /* Yazıları beyaz yap */
+}
+
+#menu::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(82, 5, 103, 0.748); /* Siyah karartma (0.5 = %50 opacity) */
+  z-index: 1;
+}
+
+#menu .container {
+  position: relative;
+  z-index: 2; /* İçerik üstte kalır */
+}
+
+.img-fluid {
+  max-width: 300px; /* Maksimum genişlik sınırını 300px yapar */
+  height: 300px; /* Orantılı yükseklik */
+  border: 4px solid #f0a1db; /* Çerçeve */
+  border-radius: 8px; /* Yuvarlatılmış kenarlar */
+  padding: 5px; /* Çerçeve ile resim arasına boşluk */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Gölge */
+}
+
 
 /*--------------------------------------------------------------
 # Starter Section Section
