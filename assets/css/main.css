@@ -1218,14 +1218,9 @@ section,
 --------------------------------------------------------------*/
 .menu {
   /*background-color: color-mix(in srgb, var(--background-color) 90%, white 5%);*/
-  background-color: #7f364bde;
+  background-color: #802e78de;
 }
 
-.menu {
-  position: relative;
-  background: url('assets/img/menu/karamellim.jpg') no-repeat center center/cover;
-  background-size: cover;
-}
 
 .menu::before {
   content: "";
@@ -1238,7 +1233,7 @@ section,
   z-index: 1;
 }
 
-.menu .container {
+.menu.container {
   position: relative;
   z-index: 2; /* İçeriğin üstte olmasını sağlamak için */
 }
