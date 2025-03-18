@@ -1439,6 +1439,12 @@ section,
 /*--------------------------------------------------------------
 # Book A Table Section
 --------------------------------------------------------------*/
+.book-a-table form {
+  max-width: 350px; /* Formun genişliğini belirle */
+  width: 100%;
+  margin: 0 auto; /* Otomatik margin ile yatay ortala */
+}
+
 .book-a-table {
   background-color: #63205f; /* Örneğin, bej rengi */
 }
